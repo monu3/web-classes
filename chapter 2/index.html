@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta content ="description" value="This is description of a webpage">
+    <meta content ="Title" value="CSIT 2024">
+    <meta property ="og:image" content="https://images.app.goo.gl/4LZ3Q5BYzdeJzSeA7">
+    <meta name = "theme-color" content="#b71d1c"
+    <title>Document</title>
+  </head>
+
+  <style>
+
+    body main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 400px;
+        text-align: center;
+    }
+    table,th,tr,td{
+        border: 1px solid green;
+    }
+
+    tr:nth-child(even){
+        background-color: lightblue;
+    }
+
+    .bank-form{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        gap: 5px;
+    }
+    .bank-form input{
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 6px;
+    }
+    .bank-form button{
+       background: aqua;
+       color: white;
+       padding: 10px;
+    }
+    header{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    nav ul{
+        list-style-type: none;
+        display: flex;
+        gap: 10px;
+    }
+    nav a{
+        color: aqua;
+        text-decoration: none;
+    }
+
+    nav ul a:hover{
+        text-decoration: underline;
+    }
+    aside{
+        background: lightblue;
+        width: 20px;
+        padding: 10px;
+        float: right;
+    }
+
+  </style>
+  <body>
+      <header>
+        <img src="" width="30" height="20" alt="logo" >
+        <h3>Page title</h3>
+          <nav>
+              <ul>
+                  <li>
+                    <a href="/">Home</a></li>
+                  <li>
+                    <a href = "/">About</a></li>
+                  <li>
+                    <a href = "/">Contact</a></li>
+              </ul>
+          </nav>
+      </header>
+    <main>
+            <fieldset>
+                <span id = "monu "> i am travereller </span>
+            </fieldset>
+            <fieldset>
+              <legend>1 st class</legend>
+              <div style="display: flex; flex-direction: column">
+                <small>This is small hai .</small>
+                <span>
+                  hi my name is monu siddiki. Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Nam facere ut qui atque, quos non ex, id quod, culpa
+                  asperiores inventore sequi dolore quis saepe perferendis laboriosam
+                  corrupti pariatur in. Voluptate, nemo harum! Id.
+                </span>
+                <pre>
+                        hi monu siddiki. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, fugiat voluptas accusamus cum ea iure labore veniam ratione ipsam dolore beatae tempore non ipsum quisquam sed soluta, nam accusantium, placeat reiciendis. Quis, quo. Pariatur.
+                    </pre
+                >
+                <strong> i am strong. </strong>
+                <b> i am bold . </b>
+                <tt>TT tag </tt>
+        
+                <code> printf("My name is monu siddiki."); </code>
+        
+                <img
+                  src="https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024"
+                  width="300px"
+                  height="300px"
+                  alt="monu"
+                />
+        
+                <!-- <img
+                  src="https://lh3.googleusercent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024"
+                  width="300px"
+                  height="300px"
+                  alt="monu"
+                  onerror="this.src='https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024' "
+                /> -->
+        
+                <a href="https://google.com">
+                    Go to google 
+                </a> 
+        
+        
+                <!-- change tab with new site -->
+                <a target="_blank" href="https://google.com">
+                    Go to google in new tab
+                </a> 
+        
+                <a href="tel:+9800564411">9800564411</a>
+                <a href="mailto :m9800564411@gmail.com ; subject : req for money" > m9800564411@gmail.com </a>
+                
+        
+                <ul>
+                    <li>m</li>
+                    <li>o</li>
+                    <li>n</li>
+                    <li>u</li>
+                </ul>
+        
+                <ol style="list-style-type: devanagari;">
+        
+                    <li>M</li>
+                    <li>O</li>
+                    <li>N</li>
+                    <li>U</li>
+                </ol>
+            </fieldset>
+        
+            <fieldset>
+               <legend> class about table and forms and iframes</legend> 
+        
+               <table>
+                    <thead>
+                        <tr>
+                            <th>Sn</th>
+                            <th>Name </th>
+                            <th>Course</th>
+                            <th>Roll</th>
+        
+                        </tr>
+                    </thead>
+        
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>Csit</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>Csit</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>Csit</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>Csit</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>Csit</td>
+                            <td>25</td>
+                        </tr>
+                    </tbody>
+               </table>
+        
+               <h1> table by rospan and cospan</h1>
+        
+               <table>
+                    <thead>
+                        <tr>
+                            <th>Sn</th>
+                            <th colspan="2">Name </th>
+                            <th>Course</th>
+                            <th>Roll</th>
+        
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>siddiki</td>
+                            <td rowspan="5">Csit</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>siddiki</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>siddiki</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>siddiki</td>
+                            <td>25</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Monu</td>
+                            <td>siddiki</td>
+                            <td>25</td>
+                        </tr>
+                    </tbody>
+               </table>
+        
+        
+               <h1> class routine </h1>
+        
+               <table>
+        
+                <thead>
+                    <tr>
+                        <th>Time & Day</th>
+                        <th> 6:30-7:30</th>
+                        <th>7:30-8:30</th>
+                        <th>8:30-9:30</th>
+                        <th>
+                            <pre>
+                                B
+                                R
+                                E
+                                A
+                                K
+                            </pre>
+                        </th>
+                        <th>10:00-11:00</th>
+                        <th>11:00-12:00</th>
+                    </tr>
+                </thead>
+        
+                <tbody>
+                    <tr>
+                        <td>sunday</td>
+                        <td>sunday</td>
+                        <td>sunday</td>
+                        <td>sunday</td>
+                        <td>sunday</td>
+                        <td>sunday</td>
+                        <td>sunday</td>
+                    </tr>
+                </tbody>
+               </table>
+        
+               <h2>  iframe  </h2>
+               <iframe
+                    width="50%"
+                    height="500px"
+                    src="https://www.youtube.com/embed/dx4Teh-nv3A?si=Kd1CfuQDJezucx_b"
+                    frameborder = "0">
+                </iframe>
+        
+        
+            </fieldset>
+        
+        
+            <fieldset>
+                <legend>26th april </legend>
+                <h1>Forms </h1>
+                <form class="bank-form" id="customerForm">
+                    <label for="">upload your photo</label>
+                    <input type="file" placeholder="Image">
+                    <input required type="text" placeholder="First-Name">
+                    <input required type="text" placeholder="Last-Name">
+                    <input required type="number" placeholder="Age">
+                    <input type="date" placeholder="Dob">
+                    <input type="color" placeholder="color">
+                    <input type="text" placeholder="Phone Number ">
+                    <input required type="password" placeholder="secret Pin">
+                    <select name="" id ="">
+                        <option value="">Male</option>
+                        <option value="">Female</option>
+                        <option value="">Others</option>
+                    </select>
+                    <h3> Receive alerts in email and phone</h3>
+                    <div>
+                        <label for="">Email</label>
+                        <input id="email-opt" type="checkbox" placeholder="Email">
+                    </div>
+                    <div>
+                        <label for="">Phone</label>
+                        <input id="phone-opt" type="checkbox" placeholder="Phone">
+                    </div>
+                    <button type="submit">Submit your form here</button>
+                </form>
+            </fieldset>
+        
+            <fieldset>
+                <legend>april ....meta tag,audio.. video</legend>  
+                <div>
+                    <audio controls>
+                        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+                    </audio>
+                    <!-- <video loop preload>
+                        <source
+                        src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" >
+                    </video>
+                    <canvas id="image" >
+                        <img src="https://www.draw.io"
+                    </canvas> -->
+
+                    <article>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio, blanditiis, eveniet doloribus sunt mollitia dolorem atque vitae inventore debitis nihil consequuntur, culpa in doloremque perspiciatis! Hic autem necessitatibus deserunt!
+                        </p>
+                        <aside>
+                            this is very important part of this article.
+                        </aside>
+                    </article>
+                    <div role="article">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis, expedita totam! Laudantium magni deleniti iste, in excepturi voluptate minus, doloremque consequatur ut, culpa esse vel labore nesciunt officia autem atque.
+                    </div>
+                </div>
+            </fieldset>
+       
+
+            <fieldset>
+                <legend>
+                    HTML events
+                </legend>
+                <h2>EVENTS</h2>
+                <h3>Mouse events</h3>
+
+                <button onclick="alert('clicked me 1 time ')">click me</button>
+                <button ondblclick="alert('clicked me 2 time ')">click 2 time me</button>
+                <div onmouseenter="alert('mouse entered in a div ')" onmouseleave="('mouse leave')"></div>
+                <div onscroll="console.log("user scrolled")" style="height: 50px; overflow: scroll;">
+                Lorem ipsum dolor sit amet consectetur 
+                adipisicing elit. Nulla molestias omnis provident 
+                tenetur commodi obcaecati
+                 distinctio aut temporibus 
+                quisquam aliquam rem voluptates,
+                excepturi eveniet dolorum hic. 
+                Natus rem accusamus saepe?
+                Lorem ipsum dolor sit amet
+                 consectetur adipisicing elit.
+                 Reprehenderit vitae possimus illo expedita, quia, 
+                 accusamus eius, totam perferendis veritatis ullam 
+                 voluptatem velit aperiam nihil 
+                 alias quibusdam maxime ab explicabo. Minus?
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>
+                    30th april (keyboard events ,form events,window events)
+                </legend>
+                <div  style="display: flex;flex-direction: column;gap: 10px;">
+
+                    <input placeholder="onchange" onchange="console.log('1')" type="text">
+                    <input placeholder="oninput" oninput="console.log('2')" type="text">
+                    <input placeholder="onkeypress" onkeypress="console.log('key pressed')" type="text">
+                    <input placeholder="onkeydown" onkeydown="console.log('key down trigger')" type="text">
+
+
+                    <form onreset="alert('Hello reset form')" onsubmit="alert('hello monu siddiki')">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <input type="text">
+                        <button type="submit">Submit</button>
+                        <button type="reset">reset</button>
+                    
+                    
+                    </form>
+                </div>
+            </fieldset>
+    </main>
+    <footer>
+        Copyright 2024 monu siddiki.
+    </footer>
+    <script>
+            let form=document.getElementById('customerForm');
+            form.addEventListener('submit',(e)=>{
+                e.preventDefault();
+                console.log('here');
+            })
+    </script>
+  </body>
+</html>
