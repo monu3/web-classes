@@ -1,4 +1,5 @@
-.wrapper{
+
+.wrapper,.bg-wrapper{
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -37,4 +38,35 @@
 
 .Git{
     color: brown;
+}
+
+.red{
+    color: rgb(213, 82, 82);
+    color: #b71d1c;
+}
+
+.color-bg{
+    width: 500px;
+    height: fit-content;
+   
+}
+.green{
+   
+    background: rgb(61, 101, 61);
+}
+.blue{
+   
+    background: rgb(51, 13, 223);
+}
+.green span,.blue span{
+    font-size: 24px;
+    padding: 5px;
+}
+
+.bg-image{
+    background: url(https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024);
+    width: 300px;
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
