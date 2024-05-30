@@ -113,3 +113,32 @@
 .day2:hover{
     text-decoration: underline;
 }
+
+.vehicle li:nth-child(even){
+    list-style-type: circle;
+    list-style-position: outside;
+}
+.vehicle li:nth-child(odd){
+    list-style-type: devanagari;
+    list-style-position: inside;
+}
+.student{
+    border-collapse: collapse;
+    width: 400px;
+
+}
+
+.student,.student th,.student td{
+    border: 1px solid green;
+    text-align: center;
+}
+
+.student tr:nth-child(even){
+    background: darkgray;
+}
+.student img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
