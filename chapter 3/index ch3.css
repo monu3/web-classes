@@ -142,3 +142,37 @@
     border-radius: 50%;
 }
 
+.student-card{
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px 0 0 0;
+}
+
+.student-card img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.student-card .info-wrapper{
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden{
+    display: none;
+}
+
+
+.student-card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* grid-template-columns: 10px 40px 40px 10px; */
+    gap: 20px;
+}
