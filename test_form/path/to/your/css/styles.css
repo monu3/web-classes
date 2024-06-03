@@ -187,3 +187,18 @@ body {
     flex: 1;
     text-align: center;
 }
+
+
+
+.payment{
+   display: grid;
+}
+
+.payment img{
+    width: 150px;
+    height: 150px;
+}
+
+.method{
+    display: grid;
+}

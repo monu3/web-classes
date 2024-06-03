@@ -1,178 +1,199 @@
-
-.wrapper,.bg-wrapper{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.wrapper,
+.bg-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 /* nested selector */
-.wrapper .rect{
-    color: green;
+.wrapper .rect {
+  color: green;
 }
 
-.circle{
-    width: 50px;
-    height: 50px;
-    border-radius: 50% ;
-    border: 1px solid aqua;
-    /* use flex or grid  */
-    display: flex;     
-    /* if flex use .....only align-item and justify-content are use  */
-    align-items: center;  /* */
-    justify-content: center;
-    background: red;
-    color: white;
-    /* background-color: black; */
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid aqua;
+  /* use flex or grid  */
+  display: flex;
+  /* if flex use .....only align-item and justify-content are use  */
+  align-items: center; /* */
+  justify-content: center;
+  background: red;
+  color: white;
+  /* background-color: black; */
 }
-#square{
-    width: 150px;
-    height: 150px;
-    border: 1px solid aqua;
-    /* use flex or grid  */
-    display: flex;     
-    /* if flex use .....only align-item and justify-content are use  */
-    align-items: center;  /* */
-    justify-content: center;
-    color: white;
-    background-color: black;
-}
-
-.Git{
-    color: brown;
+#square {
+  width: 150px;
+  height: 150px;
+  border: 1px solid aqua;
+  /* use flex or grid  */
+  display: flex;
+  /* if flex use .....only align-item and justify-content are use  */
+  align-items: center; /* */
+  justify-content: center;
+  color: white;
+  background-color: black;
 }
 
-.red{
-    color: rgb(213, 82, 82);
-    color: #b71d1c;
+.Git {
+  color: brown;
 }
 
-.color-bg{
-    width: 500px;
-    height: fit-content;
-   
-}
-.green{
-   
-    background: rgb(61, 101, 61);
-}
-.blue{
-   
-    background: rgb(51, 13, 223);
-}
-.green span,.blue span{
-    font-size: 24px;
-    padding: 5px;
+.red {
+  color: rgb(213, 82, 82);
+  color: #b71d1c;
 }
 
-.bg-image{
-    background: url(https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024);
-    width: 300px;
-    height: 300px;
-    background-size: contain;
-    background-repeat: no-repeat;
+.color-bg {
+  width: 500px;
+  height: fit-content;
+}
+.green {
+  background: rgb(61, 101, 61);
+}
+.blue {
+  background: rgb(51, 13, 223);
+}
+.green span,
+.blue span {
+  font-size: 24px;
+  padding: 5px;
 }
 
-.pseudo input{
-    padding: 10px;
-    border: 2px double #b71d1c;
+.bg-image {
+  background: url(https://lh3.googleusercontent.com/2Glig-YXcE8GLTBTXP1DNnICG7ItFaiYiSbDKLQ371p3skv8Py1wKtouFMyv-s6s3k3wK98TZkE9q1oNkUbQBfuFhEaokVVqAcwL=s1024);
+  width: 300px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
-.pseudo input[type="text"]{
-    color: aqua;
+.pseudo input {
+  padding: 10px;
+  border: 2px double #b71d1c;
 }
 
-.pseudo input[type="number"]{
-    color: blue;
-}
-.pseudo input[value="monu"]{
-    color: rgb(248, 35, 74);
-}
-.pseudo input[name="age"]{
-    color: rgb(15, 235, 52);
+.pseudo input[type="text"] {
+  color: aqua;
 }
 
-
-.day{
-    color: rgb(46, 201, 62);
-    width: 100%;
-    text-align: center;
-    text-transform: uppercase;
+.pseudo input[type="number"] {
+  color: blue;
+}
+.pseudo input[value="monu"] {
+  color: rgb(248, 35, 74);
+}
+.pseudo input[name="age"] {
+  color: rgb(15, 235, 52);
 }
 
-.day:hover{
-    text-decoration: underline;
+.day {
+  color: rgb(46, 201, 62);
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.day2{
-    text-align: start;
-    text-indent: 30px;
-    letter-spacing: 2px;
-    text-shadow: 3px 5px rgb(222, 142, 142);
+.day:hover {
+  text-decoration: underline;
 }
 
-.day2:hover{
-    text-decoration: underline;
+.day2 {
+  text-align: start;
+  text-indent: 30px;
+  letter-spacing: 2px;
+  text-shadow: 3px 5px rgb(222, 142, 142);
 }
 
-.vehicle li:nth-child(even){
-    list-style-type: circle;
-    list-style-position: outside;
-}
-.vehicle li:nth-child(odd){
-    list-style-type: devanagari;
-    list-style-position: inside;
-}
-.student{
-    border-collapse: collapse;
-    width: 400px;
-
+.day2:hover {
+  text-decoration: underline;
 }
 
-.student,.student th,.student td{
-    border: 1px solid green;
-    text-align: center;
+.vehicle li:nth-child(even) {
+  list-style-type: circle;
+  list-style-position: outside;
+}
+.vehicle li:nth-child(odd) {
+  list-style-type: devanagari;
+  list-style-position: inside;
+}
+.student {
+  border-collapse: collapse;
+  width: 400px;
 }
 
-.student tr:nth-child(even){
-    background: darkgray;
-}
-.student img{
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.student,
+.student th,
+.student td {
+  border: 1px solid green;
+  text-align: center;
 }
 
-.student-card{
-    border: 1px solid #ccc;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    width: 150px;
-    border-radius: 5px;
-    margin: 10px 0 0 0;
+.student tr:nth-child(even) {
+  background: darkgray;
+}
+.student img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
 
-.student-card img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
+.student-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 150px;
+  border-radius: 5px;
+  margin: 10px 0 0 0;
 }
 
-.student-card .info-wrapper{
-    /* display: grid; */
-    display: flex;
-    flex-direction: column;
+.student-card img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 }
 
-.hidden{
-    display: none;
+.student-card .info-wrapper {
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
 }
 
+.hidden {
+  display: none;
+}
 
-.student-card-wrapper{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    /* grid-template-columns: 10px 40px 40px 10px; */
-    gap: 20px;
+.student-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* grid-template-columns: 10px 40px 40px 10px; */
+  gap: 20px;
+}
+
+.payment {
+    border: 3px solid darkblue;
+  border-radius: 5px;
+  background: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  border: 1px solid;
+}
+
+.item-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.payment-img {
+  width: 90px;
+  height: 50px;
+  display: flex;
 }
