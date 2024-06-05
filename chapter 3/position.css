@@ -88,7 +88,68 @@
 }
 
 
-@media screen and (max-width:1000px){
+.fruits{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.fruit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.fruit:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.fruit img{
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.fruit:hover{
+    background: rgb(90, 194, 229);
+}
+
+.fruit:active{
+    transform: scale(1.01);
+}
+
+
+
+
+@media screen and (min-width:400px){
+    .cards{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .card{
+        background: rgb(208, 130, 241);
+    }
+    
+}
+@media screen and (min-width:700px){
+    .cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    .card{
+        background: rgb(241, 130, 130);
+    }
+    
+}
+@media screen and (min-width:1000px){
     .cards{
         grid-template-columns: repeat(4,1fr);
     }
@@ -98,25 +159,10 @@
     }
     
 }
-@media screen and (max-width:700px){
-    .cards{
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .card{
-        background: rgb(241, 130, 130);
-    }
-    
-}
-@media screen and (max-width:400px){
-    .cards{
-        grid-template-columns: repeat(1,1fr);
-    }
-
-    .card{
-        background: rgb(208, 130, 241);
-    }
-    
+.overflow{
+    margin-top: 10px;
+    background-color: blueviolet;
+    text-overflow: ellipsis;
 }
 
 
