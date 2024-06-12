@@ -97,4 +97,67 @@ function checkEven(n){
 
 checkEven(100);
 
+function isStudentQualified(attendance,marks){
+  if(attendance>75 && marks>40){
+    return "Qualified !!";
+  }
+  return "NQ !!";
+}
+
+console.log(isStudentQualified(80,50));
+
+//double and triple equal 
+function checkIfEqual(first,second){
+  if(first===second){
+    return 'Both values and type are equal';
+  }
+  else if(first==second){
+    return 'Only value is equal ';
+  }
+  return 'Both Not equal ';
+}
+
+console.log(checkIfEqual("ram","ram"));   //both values and type is equal
+console.log(checkIfEqual(20,"20"));  //only values are equal
+console.log(checkIfEqual(25,25));
+
+
+
+// let count=0;
+
+// setInterval(()=>{
+//   count++;
+//   console.log(count);
+// },1000)
+
+
+
+// FLow control
+
+function getDayOfWeek(day){
+  let val;
+    switch(day){
+      case 0:
+        val='Sunday';
+        break;
+      case 1:
+        val =  'Monday';
+        break;
+      case 2:
+        return 'Tueday';
+      case 3:
+        return 'Wednesday';
+      case 4:
+        return 'Thuesday';
+      case 5:
+        return 'Friday';
+      case 6:
+        return 'Saturday';
+      default:
+        return 'Invalid input !!';
+    }
+    return val;
+}
+
+console.log(getDayOfWeek(3));
 
