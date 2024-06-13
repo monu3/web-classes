@@ -161,3 +161,52 @@ function getDayOfWeek(day){
 
 console.log(getDayOfWeek(3));
 
+
+
+//Flow control
+
+// for(let i=10;i>0;i--){
+//     console.log("I love you !");
+// }
+
+// let mon = 100;
+// while(mon>0){
+//   console.log("I love You !");
+//   mon--;
+// }
+
+
+// ARRAY
+// for each
+let students = ["Monu","Megha","diwash","Arjun",1,2,true,"Sabin","Sumit","Subhod","Savu","Moni"];
+students.forEach((student,index)=>{
+  console.log(index,student);
+})
+
+
+//Objects
+
+let student25 = {
+  roll:25,
+  name:"Monu siddiki",
+  address:"kapan",
+  age:20,
+  subjects:['Maths','Science','Social'],
+  isMarried:true,
+  favColor:(isDay)=>{
+    return isDay?'Red':'Black';
+  }
+}
+
+console.log(student25);
+console.log(student25.age);
+console.log(student25.favColor(true));
+console.log(student25.favColor(new Date().getHours()<18));
+
+
+ //by using for in loop 
+console.log(":::::::::for in started:::::::::::");
+ for(let student in student25){
+  console.log(student,student25[student]);
+ }
+
