@@ -210,3 +210,14 @@ console.log(":::::::::for in started:::::::::::");
   console.log(student,student25[student]);
  }
 
+
+ let fruits = ['apple','kiwi','orange'];
+ 
+ for (let fruit of fruits){
+  console.log(fruit);
+ }
+
+ for (let fruitIndex in fruits){
+  console.log(fruitIndex,fruits[fruitIndex]);
+ }
+
